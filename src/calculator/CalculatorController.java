@@ -23,6 +23,7 @@ public class CalculatorController {
         public void actionPerformed(ActionEvent e){
             
           switch(e.getActionCommand()){
+	      case "0": addNumsToModel(0);break;
               case "1": addNumsToModel(1);break;
               case "2": addNumsToModel(2);break;
               case "3": addNumsToModel(3);break;
